@@ -1,0 +1,30 @@
+*{
+  margin: 0;padding: 0;
+}
+.app{
+  background-color: lightslategrey;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  margin:4rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  width:88vw;
+  height: 80vh;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 0px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.left_sidebar{
+  background-image: url(./christian-holzinger-bVOmGEOnEzc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  opacity:1;
+  width: 55%;
+  height: 100%;
+  border-radius: 2rem;
+}
